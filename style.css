@@ -107,6 +107,24 @@ ul{
     -1px 1px 0 #000,
     1px 1px 0 #000;
 }
+@media only screen and (max-width: 768px) {
+    #mainTitle {
+        font-size: 36px;
+    }
+
+    .container {
+        padding: 5px;
+    }
+
+    #addButton {
+        margin-left: 20px;
+    }
+
+    .content {
+        padding-left: 10px;
+        border-radius: 20px;
+    }
+}
 
 /* body{ // default code
     display: flex;
